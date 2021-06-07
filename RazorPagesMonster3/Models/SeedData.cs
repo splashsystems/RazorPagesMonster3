@@ -26,7 +26,8 @@ namespace RazorPagesMonster3.Models
                         MonsterName = "Flip Wilson",
                         ReleaseDate = DateTime.Parse("1970-3-1"),
                         Genre = "Dinosaurs",
-                        Price = 434M
+                        Price = 434M,
+                        Rating = "A"
                     },
 
                     new Monster
@@ -34,15 +35,17 @@ namespace RazorPagesMonster3.Models
                         MonsterName = "Terminator",
                         ReleaseDate = DateTime.Parse("1999-12-12"),
                         Genre = "Dragons",
-                        Price = 523M
+                        Price = 523M,
+                        Rating = "A"
                     },
 
                     new Monster
                     {
                         MonsterName = "Dobby Puff",
                         ReleaseDate = DateTime.Parse("1943-1-11"),
-                        Genre = "Dragsons",
-                        Price = 210M
+                        Genre = "Dragons",
+                        Price = 210M,
+                        Rating = "A"
                     },
 
                     new Monster
@@ -50,7 +53,8 @@ namespace RazorPagesMonster3.Models
                         MonsterName = "Bubba Gouché",
                         ReleaseDate = DateTime.Parse("2003-10-3"),
                         Genre = "Animated Food",
-                        Price = 300M
+                        Price = 300M,
+                        Rating = "A"
                     }
                 );
                 context.SaveChanges();
